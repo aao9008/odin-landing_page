@@ -63,7 +63,7 @@ img {
   border-width: 5px;
 }
 
-.card {
+.welcome-card {
   background-color: #1f2937;
   display: flex;
   padding: 16px;
@@ -95,3 +95,41 @@ img {
   border-style: none;
   border-radius: 10px;
 }
+
+/* Style for About Us Section */
+.info img{
+  height: auto;
+  width: 175px;
+  border-style: solid;
+  border-color: #3882f6;
+  border-width: 6px;
+  border-radius: 10%;
+}
+
+.profile-header{
+  color:#1F2937 ;
+  background-color:white;
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.profile-card{
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-container{
+  display: flex;
+  font-size: 16px;
+  text-align: center;
+  gap: 16px;
+  justify-content: space-evenly;
+}
+
+.info{
+  max-width: 200px;
+  color:#1F2937;
+}
+
