@@ -9,6 +9,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 /* Provides style for header and footer*/
@@ -40,6 +41,7 @@ ul {
   display: flex;
   flex-direction: column;
   flex: 1;
+  overflow: auto;
 }
 
 .footer {
@@ -69,6 +71,7 @@ img {
   padding: 16px;
   justify-content: space-evenly;
   align-items: center;
+  flex: 1;
 }
 
 .container {
@@ -111,19 +114,17 @@ img {
   background-color:white;
   font-size: 36px;
   font-weight: 900;
-  text-align: center;
   margin-bottom: 16px;
 }
 
 .profile-card{
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 
 .profile-container{
   display: flex;
-  font-size: 16px;
-  text-align: center;
   gap: 16px;
   justify-content: space-evenly;
 }
@@ -131,5 +132,6 @@ img {
 .info{
   max-width: 200px;
   color:#1F2937;
+  font-size: 16px;
 }
 
